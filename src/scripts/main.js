@@ -8,5 +8,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
         document.getElementById('resultado-valor').innerText = numRand;
         document.querySelector('.resultado').style.display = 'block';
+
+        event.preventDefault();
     })
 })
